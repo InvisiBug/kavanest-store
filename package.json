@@ -5,6 +5,7 @@
   "repository": "https://github.com/InvisiBug/kavanest-store.git",
   "author": "InvisiBug <matthewjkavanagh@gmail.com>",
   "license": "MIT",
+  "typings": "./dist/definitions/index.d.ts",
   "scripts": {
     "dev": "nodemon --exec \"ts-node \" ./src/index.ts",
     "start": "ts-node ./src/index.ts",
