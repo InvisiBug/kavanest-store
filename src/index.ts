@@ -1,4 +1,4 @@
-export const testfn = () => {
+export const testfn = (): void => {
   console.log("Hello from test fn");
 };
 
