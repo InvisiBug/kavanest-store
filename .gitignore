@@ -12,6 +12,8 @@
 # production
 /build
 
+# dist is needed for the package linking to work, don't add it back
+#/dist
 
 /data
 
