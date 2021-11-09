@@ -12,7 +12,7 @@
 # production
 /build
 
-/dist
+
 /data
 
 # misc

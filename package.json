@@ -1,7 +1,7 @@
 {
   "name": "kavanest-store",
   "version": "1.0.0",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "repository": "https://github.com/InvisiBug/kavanest-store.git",
   "author": "InvisiBug <matthewjkavanagh@gmail.com>",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "nodemon --exec \"ts-node \" ./src/index.ts",
     "start": "ts-node ./src/index.ts",
-    "build": "tsc && cp ./src/devices.yaml ./dist",
+    "build": "tsc",
     "start-container": "./bin/start-container.sh",
     "up": "clear && ./bin/start-container.sh",
     "down": "docker-compose down",
