@@ -1,4 +1,4 @@
-import { radiator, sensor, plug, valve, offset } from "./schemas";
+import { radiator, sensor, plug, valve, offset, rgbLight } from "./schemas";
 import mongoose from "mongoose";
 require("dotenv").config();
 
@@ -18,5 +18,6 @@ export const offsetStore = connection.model("offset", offset);
 export const sensorStore = connection.model("sensor", sensor);
 export const valveStore = connection.model("valve", valve);
 export const plugStore = connection.model("plug", plug);
+export const rgbLightStore = connection.model("plug", rgbLight);
 
 export const options = { new: true, upsert: true };
