@@ -18,6 +18,6 @@ export const offsetStore = connection.model("offset", offset);
 export const sensorStore = connection.model("sensor", sensor);
 export const valveStore = connection.model("valve", valve);
 export const plugStore = connection.model("plug", plug);
-export const rgbLightStore = connection.model("plug", rgbLight);
+export const rgbLightStore = connection.model("rgbLight", rgbLight);
 
 export const options = { new: true, upsert: true };

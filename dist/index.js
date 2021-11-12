@@ -22,5 +22,5 @@ exports.offsetStore = connection.model("offset", schemas_1.offset);
 exports.sensorStore = connection.model("sensor", schemas_1.sensor);
 exports.valveStore = connection.model("valve", schemas_1.valve);
 exports.plugStore = connection.model("plug", schemas_1.plug);
-exports.rgbLightStore = connection.model("plug", schemas_1.rgbLight);
+exports.rgbLightStore = connection.model("rgbLight", schemas_1.rgbLight);
 exports.options = { "new": true, upsert: true };
