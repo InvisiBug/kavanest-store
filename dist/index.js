@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 var _a;
 exports.__esModule = true;
-exports.options = exports.plugStore = exports.valveStore = exports.sensorStore = exports.offsetStore = exports.radiatorStore = void 0;
+exports.options = exports.rgbLightStore = exports.plugStore = exports.valveStore = exports.sensorStore = exports.offsetStore = exports.radiatorStore = void 0;
 var schemas_1 = require("./schemas");
 var mongoose_1 = __importDefault(require("mongoose"));
 require("dotenv").config();
@@ -22,4 +22,5 @@ exports.offsetStore = connection.model("offset", schemas_1.offset);
 exports.sensorStore = connection.model("sensor", schemas_1.sensor);
 exports.valveStore = connection.model("valve", schemas_1.valve);
 exports.plugStore = connection.model("plug", schemas_1.plug);
+exports.rgbLightStore = connection.model("plug", schemas_1.rgbLight);
 exports.options = { "new": true, upsert: true };
