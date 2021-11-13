@@ -6,8 +6,8 @@ exports.__esModule = true;
 var mongoose_1 = __importDefault(require("mongoose"));
 var valveSchema = new mongoose_1["default"].Schema({
     name: { type: String },
-    id: { type: String },
     state: { type: Boolean },
+    demand: { type: Boolean },
     connected: { type: Boolean }
 });
 exports["default"] = valveSchema;
