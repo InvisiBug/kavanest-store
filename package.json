@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "nodemon --exec \"ts-node \" ./src/index.ts",
     "start": "ts-node ./src/index.ts",
-    "build": "tsc",
+    "build": "rm -r dist && tsc",
     "start-container": "./bin/start-container.sh",
     "up": "clear && ./bin/start-container.sh",
     "down": "docker-compose down",
